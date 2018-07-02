@@ -22,6 +22,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/notes" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Exam Board", name: "board", widget: "string"}
       - {label: "Level", name: "level", widget: "string"}
       - {label: "Subject", name: "subject", widget: "string"}
